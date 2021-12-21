@@ -1,0 +1,31 @@
+html{
+	margin: 1%;
+	padding: 1%;
+	background-color: #f5efef;
+}
+h2{
+	margin-left: 0.5%;
+}
+p{
+	margin-left: 1%;
+}
+
+.flex-container {
+  display: flex;
+  background-color: ;
+  justify-content: space-around;
+  display: wrap;
+}
+.flex-container > div {
+	flex-grow: 2;
+	flex-shrink:  2;
+  background-color: white;
+  align-self: center;
+  padding:  20px;
+}
+.flex-container > .div1 {
+  font-size: 20px;
+}
+.flex-container .div2 {
+
+}
